@@ -2,10 +2,10 @@
 Docker virtualizing Raspbian and running python subscriber
 
 # Build
-docker build -t test .
+docker build -t mqtt-subscriber .
 
 # Run
 
-docker run test message_1
+docker run mqtt-subscriber
 
 
