@@ -16,7 +16,7 @@ client = mqtt.Client(client_id="concept_client", clean_session=False)
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.connect("172.17.0.2", 1883, 20)
+client.connect("162.0.0.10", 1883, 20)
 
 # Blocking call that processes network traffic, dispatches callbacks and
 # handles reconnecting.
