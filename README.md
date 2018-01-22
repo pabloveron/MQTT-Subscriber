@@ -6,6 +6,5 @@ docker build -t mqtt-subscriber .
 
 # Run
 
-docker run mqtt-subscriber
-
+docker run --net=mqttbridge mqtt-subscriber
 
